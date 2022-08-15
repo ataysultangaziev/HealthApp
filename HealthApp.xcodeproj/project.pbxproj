@@ -7,23 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69E3ED4709A27E9D96D98F0D /* Pods_HealthApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6674E0AB8C75CEC32740DA /* Pods_HealthApp.framework */; };
 		AC60F6C228A76B6A00456A44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60F6C128A76B6A00456A44 /* AppDelegate.swift */; };
 		AC60F6C428A76B6A00456A44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60F6C328A76B6A00456A44 /* SceneDelegate.swift */; };
-		AC60F6C628A76B6A00456A44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60F6C528A76B6A00456A44 /* ViewController.swift */; };
-		AC60F6C928A76B6A00456A44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC60F6C728A76B6A00456A44 /* Main.storyboard */; };
 		AC60F6CB28A76B6B00456A44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC60F6CA28A76B6B00456A44 /* Assets.xcassets */; };
 		AC60F6CE28A76B6B00456A44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC60F6CC28A76B6B00456A44 /* LaunchScreen.storyboard */; };
+		AC60F6DB28A77DFD00456A44 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60F6DA28A77DFD00456A44 /* Layout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A6674E0AB8C75CEC32740DA /* Pods_HealthApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68246F32BD3E615D53A3F2B6 /* Pods-HealthApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthApp.release.xcconfig"; path = "Target Support Files/Pods-HealthApp/Pods-HealthApp.release.xcconfig"; sourceTree = "<group>"; };
+		8BA32BE6A77729C91BCA7E87 /* Pods-HealthApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthApp.debug.xcconfig"; path = "Target Support Files/Pods-HealthApp/Pods-HealthApp.debug.xcconfig"; sourceTree = "<group>"; };
 		AC60F6BE28A76B6A00456A44 /* HealthApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC60F6C128A76B6A00456A44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC60F6C328A76B6A00456A44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AC60F6C528A76B6A00456A44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AC60F6C828A76B6A00456A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC60F6CA28A76B6B00456A44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC60F6CD28A76B6B00456A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC60F6CF28A76B6B00456A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC60F6DA28A77DFD00456A44 /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +33,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69E3ED4709A27E9D96D98F0D /* Pods_HealthApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A70AADBF4BA08DE8E2755C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BA32BE6A77729C91BCA7E87 /* Pods-HealthApp.debug.xcconfig */,
+				68246F32BD3E615D53A3F2B6 /* Pods-HealthApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8EEE683E26BA3D8E1ADB917B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A6674E0AB8C75CEC32740DA /* Pods_HealthApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC5F465728AA170C00265F3D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		AC60F6B528A76B6A00456A44 = {
 			isa = PBXGroup;
 			children = (
 				AC60F6C028A76B6A00456A44 /* HealthApp */,
 				AC60F6BF28A76B6A00456A44 /* Products */,
+				0A70AADBF4BA08DE8E2755C7 /* Pods */,
+				8EEE683E26BA3D8E1ADB917B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +85,63 @@
 		AC60F6C028A76B6A00456A44 /* HealthApp */ = {
 			isa = PBXGroup;
 			children = (
+				AC60F6D828A77DE500456A44 /* Utils */,
+				AC60F6D728A7769900456A44 /* Services */,
+				AC60F6D628A7768C00456A44 /* Screens */,
+				AC60F6D528A7767000456A44 /* Model */,
 				AC60F6C128A76B6A00456A44 /* AppDelegate.swift */,
 				AC60F6C328A76B6A00456A44 /* SceneDelegate.swift */,
-				AC60F6C528A76B6A00456A44 /* ViewController.swift */,
-				AC60F6C728A76B6A00456A44 /* Main.storyboard */,
 				AC60F6CA28A76B6B00456A44 /* Assets.xcassets */,
 				AC60F6CC28A76B6B00456A44 /* LaunchScreen.storyboard */,
 				AC60F6CF28A76B6B00456A44 /* Info.plist */,
 			);
 			path = HealthApp;
+			sourceTree = "<group>";
+		};
+		AC60F6D528A7767000456A44 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC60F6D628A7768C00456A44 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				AC5F465728AA170C00265F3D /* Base */,
+				AC60F6DC28A7850F00456A44 /* Calendar */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		AC60F6D728A7769900456A44 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AC60F6D828A77DE500456A44 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AC60F6D928A77DED00456A44 /* Layout */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AC60F6D928A77DED00456A44 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				AC60F6DA28A77DFD00456A44 /* Layout.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		AC60F6DC28A7850F00456A44 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Calendar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC60F6D228A76B6B00456A44 /* Build configuration list for PBXNativeTarget "HealthApp" */;
 			buildPhases = (
+				09B31A1CC0B27994343BED4D /* [CP] Check Pods Manifest.lock */,
 				AC60F6BA28A76B6A00456A44 /* Sources */,
 				AC60F6BB28A76B6A00456A44 /* Frameworks */,
 				AC60F6BC28A76B6A00456A44 /* Resources */,
+				99C39E8E2AA171EC23E0ED1A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,18 +206,59 @@
 			files = (
 				AC60F6CE28A76B6B00456A44 /* LaunchScreen.storyboard in Resources */,
 				AC60F6CB28A76B6B00456A44 /* Assets.xcassets in Resources */,
-				AC60F6C928A76B6A00456A44 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09B31A1CC0B27994343BED4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealthApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99C39E8E2AA171EC23E0ED1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthApp/Pods-HealthApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthApp/Pods-HealthApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthApp/Pods-HealthApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AC60F6BA28A76B6A00456A44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC60F6C628A76B6A00456A44 /* ViewController.swift in Sources */,
+				AC60F6DB28A77DFD00456A44 /* Layout.swift in Sources */,
 				AC60F6C228A76B6A00456A44 /* AppDelegate.swift in Sources */,
 				AC60F6C428A76B6A00456A44 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +267,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AC60F6C728A76B6A00456A44 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AC60F6C828A76B6A00456A44 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AC60F6CC28A76B6B00456A44 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +396,7 @@
 		};
 		AC60F6D328A76B6B00456A44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BA32BE6A77729C91BCA7E87 /* Pods-HealthApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,7 +407,6 @@
 				INFOPLIST_FILE = HealthApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +424,7 @@
 		};
 		AC60F6D428A76B6B00456A44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68246F32BD3E615D53A3F2B6 /* Pods-HealthApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,7 +435,6 @@
 				INFOPLIST_FILE = HealthApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
