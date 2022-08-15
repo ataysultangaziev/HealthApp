@@ -10,6 +10,7 @@
 		69E3ED4709A27E9D96D98F0D /* Pods_HealthApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6674E0AB8C75CEC32740DA /* Pods_HealthApp.framework */; };
 		AC5F465B28AA185100265F3D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F465A28AA185100265F3D /* BaseViewController.swift */; };
 		AC5F465D28AA187100265F3D /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F465C28AA187100265F3D /* CalendarViewController.swift */; };
+		AC5F465F28AA188F00265F3D /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F465E28AA188F00265F3D /* CalendarCell.swift */; };
 		AC60F6C228A76B6A00456A44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60F6C128A76B6A00456A44 /* AppDelegate.swift */; };
 		AC60F6C428A76B6A00456A44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60F6C328A76B6A00456A44 /* SceneDelegate.swift */; };
 		AC60F6CB28A76B6B00456A44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC60F6CA28A76B6B00456A44 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 		8BA32BE6A77729C91BCA7E87 /* Pods-HealthApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthApp.debug.xcconfig"; path = "Target Support Files/Pods-HealthApp/Pods-HealthApp.debug.xcconfig"; sourceTree = "<group>"; };
 		AC5F465A28AA185100265F3D /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		AC5F465C28AA187100265F3D /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		AC5F465E28AA188F00265F3D /* CalendarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
 		AC60F6BE28A76B6A00456A44 /* HealthApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC60F6C128A76B6A00456A44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC60F6C328A76B6A00456A44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				AC5F465C28AA187100265F3D /* CalendarViewController.swift */,
+				AC5F465E28AA188F00265F3D /* CalendarCell.swift */,
 			);
 			path = Calendar;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC5F465D28AA187100265F3D /* CalendarViewController.swift in Sources */,
+				AC5F465F28AA188F00265F3D /* CalendarCell.swift in Sources */,
 				AC60F6DB28A77DFD00456A44 /* Layout.swift in Sources */,
 				AC5F465B28AA185100265F3D /* BaseViewController.swift in Sources */,
 				AC60F6C228A76B6A00456A44 /* AppDelegate.swift in Sources */,
